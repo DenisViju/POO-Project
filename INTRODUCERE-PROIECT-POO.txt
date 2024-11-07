@@ -1,0 +1,23 @@
+Modelarea atracțiilor din parc:
+
+Fiecare atracție va fi reprezentată ca o clasă, având atribute precum numele atracției, capacitatea, prețul de construcție și starea (în funcțiune, în întreținere etc.).
+Vor exista mai multe tipuri de atracții (ex: montagne russe, carusel, casa groazei), fiecare cu specificațiile sale unice.
+
+Gestionarea atracțiilor:
+
+Aplicația va permite adăugarea, modificarea și eliminarea atracțiilor din parc.
+Se va putea modifica starea unei atracții (pornit, oprit, în întreținere).
+Fiecare atracție va avea un cost de întreținere și va genera venituri în funcție de numărul de vizitatori.
+Simularea vizitatorilor:
+
+Se va simula fluxul de vizitatori către atracții, fiecare vizitator având un buget, preferințe pentru anumite atracții și un timp limitat petrecut în parc.
+Aplicația va simula alegerile vizitatorilor, cum ar fi ce atracții vor vizita și câți bani vor cheltui.
+
+Sistem economic:
+
+Parcul va avea un buget, care va fi afectat de costurile de construcție și întreținere ale atracțiilor, dar și de veniturile generate de vizitatori.
+Aplicația va permite urmărirea evoluției financiare a parcului, inclusiv profitul sau pierderile.
+
+Meniu:
+
+Proiectul va implementa un meniu interactiv, prin intermediul căruia utilizatorul va putea gestiona diferitele aspecte ale parcului: construirea de noi atracții, monitorizarea stării acestora, gestionarea bugetului și vizualizarea statisticilor parcului.
