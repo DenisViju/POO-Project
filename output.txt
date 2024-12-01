@@ -1,0 +1,352 @@
+Statistici initiale ale parcului:
+Statistici despre parc:
+Numar total de atractii: 5
+Tip: RollerCoaster
+Atractia: Thunder
+Status: Running
+Capacitate: 100
+Cost de constructie: 50000 lei
+Cost de intretinere: 2000 lei
+Venit per vizitator: 10 lei
+
+Numar de bucle: 5
+Tip: Carousel
+Atractia: FantasyLand
+Status: Closed
+Capacitate: 50
+Cost de constructie: 20000 lei
+Cost de intretinere: 1000 lei
+Venit per vizitator: 5 lei
+
+Numar de cai pe carusel: 20
+Tip: HauntedHouse
+Atractia: ScaryHouse
+Status: Running
+Capacitate: 30
+Cost de constructie: 30000 lei
+Cost de intretinere: 1500 lei
+Venit per vizitator: 8 lei
+
+Este infricosatoare: Da
+Tip: WaterSlide
+Atractia: SplashWave
+Status: Running
+Capacitate: 80
+Cost de constructie: 40000 lei
+Cost de intretinere: 1800 lei
+Venit per vizitator: 6 lei
+
+Tip: FerrisWheel
+Atractia: SkyHigh
+Status: Maintenance
+Capacitate: 120
+Cost de constructie: 70000 lei
+Cost de intretinere: 2500 lei
+Venit per vizitator: 12 lei
+
+Venit total generat: 4100 lei
+
+Simulare vizitatori:
+Simularea parcului de distractii
+
+Vizitatorul 1 a intrat in parc cu bugetul 270 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 270 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 270
+Vizitatorul 2 a intrat in parc cu bugetul 271 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 271 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 271
+Vizitatorul 3 a intrat in parc cu bugetul 477 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 477 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 477
+Vizitatorul 4 a intrat in parc cu bugetul 338 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 338 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 338
+Vizitatorul 5 a intrat in parc cu bugetul 576 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 576 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 576
+Vizitatorul 6 a intrat in parc cu bugetul 229 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 229 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 229
+Vizitatorul 7 a intrat in parc cu bugetul 434 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 434 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 434
+Vizitatorul 8 a intrat in parc cu bugetul 469 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 469 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 469
+Vizitatorul 9 a intrat in parc cu bugetul 340 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 340 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 340
+Vizitatorul 10 a intrat in parc cu bugetul 298 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 298 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 298
+Vizitatorul 11 a intrat in parc cu bugetul 209 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 209 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 209
+Vizitatorul 12 a intrat in parc cu bugetul 246 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 246 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 246
+Vizitatorul 13 a intrat in parc cu bugetul 595 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 595 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 595
+Vizitatorul 14 a intrat in parc cu bugetul 164 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 164 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 164
+Vizitatorul 15 a intrat in parc cu bugetul 228 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 228 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 228
+Vizitatorul 16 a intrat in parc cu bugetul 233 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 233 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 233
+Vizitatorul 17 a intrat in parc cu bugetul 471 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 471 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 471
+Vizitatorul 18 a intrat in parc cu bugetul 542 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 542 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 542
+Vizitatorul 19 a intrat in parc cu bugetul 536 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 536 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 536
+Vizitatorul 20 a intrat in parc cu bugetul 497 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 497 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 497
+Vizitatorul 21 a intrat in parc cu bugetul 235 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 235 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 235
+Vizitatorul 22 a intrat in parc cu bugetul 504 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 504 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 504
+Vizitatorul 23 a intrat in parc cu bugetul 315 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 315 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 315
+Vizitatorul 24 a intrat in parc cu bugetul 248 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 248 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 248
+Vizitatorul 25 a intrat in parc cu bugetul 346 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 346 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 346
+Vizitatorul 26 a intrat in parc cu bugetul 447 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 447 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 447
+Vizitatorul 27 a intrat in parc cu bugetul 237 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 237 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 237
+Vizitatorul 28 a intrat in parc cu bugetul 566 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 566 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 566
+Vizitatorul 29 a intrat in parc cu bugetul 256 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 256 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 256
+Vizitatorul 30 a intrat in parc cu bugetul 294 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 294 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 294
+Vizitatorul 31 a intrat in parc cu bugetul 356 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 356 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 356
+Vizitatorul 32 a intrat in parc cu bugetul 382 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 382 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 382
+Vizitatorul 33 a intrat in parc cu bugetul 469 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 469 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 469
+Vizitatorul 34 a intrat in parc cu bugetul 416 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 416 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 416
+Vizitatorul 35 a intrat in parc cu bugetul 495 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 495 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 495
+Vizitatorul 36 a intrat in parc cu bugetul 215 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 215 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 215
+Vizitatorul 37 a intrat in parc cu bugetul 421 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 421 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 421
+Vizitatorul 38 a intrat in parc cu bugetul 371 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 371 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 371
+Vizitatorul 39 a intrat in parc cu bugetul 219 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 219 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 219
+Vizitatorul 40 a intrat in parc cu bugetul 436 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 436 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 436
+Vizitatorul 41 a intrat in parc cu bugetul 232 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 232 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 232
+Vizitatorul 42 a intrat in parc cu bugetul 549 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 549 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 549
+Vizitatorul 43 a intrat in parc cu bugetul 245 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 245 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 245
+Vizitatorul 44 a intrat in parc cu bugetul 243 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 243 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 243
+Vizitatorul 45 a intrat in parc cu bugetul 144 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 144 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 144
+Vizitatorul 46 a intrat in parc cu bugetul 145 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 145 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 145
+Vizitatorul 47 a intrat in parc cu bugetul 478 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 478 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 478
+Vizitatorul 48 a intrat in parc cu bugetul 407 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 407 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 407
+Vizitatorul 49 a intrat in parc cu bugetul 436 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 436 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 436
+Vizitatorul 50 a intrat in parc cu bugetul 589 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 589 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 589
+Vizitatorul 51 a intrat in parc cu bugetul 117 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 117 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 117
+Vizitatorul 52 a intrat in parc cu bugetul 387 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 387 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 387
+Vizitatorul 53 a intrat in parc cu bugetul 522 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 522 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 522
+Vizitatorul 54 a intrat in parc cu bugetul 126 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 126 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 126
+Vizitatorul 55 a intrat in parc cu bugetul 570 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 570 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 570
+Vizitatorul 56 a intrat in parc cu bugetul 318 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 318 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 318
+Vizitatorul 57 a intrat in parc cu bugetul 475 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 475 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 475
+Vizitatorul 58 a intrat in parc cu bugetul 387 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 387 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 387
+Vizitatorul 59 a intrat in parc cu bugetul 283 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 283 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 283
+Vizitatorul 60 a intrat in parc cu bugetul 196 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 196 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 196
+Vizitatorul 61 a intrat in parc cu bugetul 109 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 109 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 109
+Vizitatorul 62 a intrat in parc cu bugetul 214 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 214 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 214
+Vizitatorul 63 a intrat in parc cu bugetul 447 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 447 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 447
+Vizitatorul 64 a intrat in parc cu bugetul 250 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 250 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 250
+Vizitatorul 65 a intrat in parc cu bugetul 322 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 322 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 322
+Vizitatorul 66 a intrat in parc cu bugetul 543 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 543 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 543
+Vizitatorul 67 a intrat in parc cu bugetul 213 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 213 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 213
+Vizitatorul 68 a intrat in parc cu bugetul 225 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 225 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 225
+Vizitatorul 69 a intrat in parc cu bugetul 140 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 140 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 140
+Vizitatorul 70 a intrat in parc cu bugetul 459 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 459 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 459
+Vizitatorul 71 a intrat in parc cu bugetul 430 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 430 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 430
+Vizitatorul 72 a intrat in parc cu bugetul 256 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 256 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 256
+Vizitatorul 73 a intrat in parc cu bugetul 441 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 441 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 441
+Vizitatorul 74 a intrat in parc cu bugetul 293 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 293 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 293
+Vizitatorul 75 a intrat in parc cu bugetul 555 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 555 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 555
+Vizitatorul 76 a intrat in parc cu bugetul 536 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 536 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 536
+Vizitatorul 77 a intrat in parc cu bugetul 332 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 332 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 332
+Vizitatorul 78 a intrat in parc cu bugetul 347 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 347 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 347
+Vizitatorul 79 a intrat in parc cu bugetul 553 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 553 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 553
+Vizitatorul 80 a intrat in parc cu bugetul 116 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 116 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 116
+Vizitatorul 81 a intrat in parc cu bugetul 191 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 191 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 191
+Vizitatorul 82 a intrat in parc cu bugetul 571 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 571 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 571
+Vizitatorul 83 a intrat in parc cu bugetul 278 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 278 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 278
+Vizitatorul 84 a intrat in parc cu bugetul 544 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 544 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 544
+Vizitatorul 85 a intrat in parc cu bugetul 427 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 427 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 427
+Vizitatorul 86 a intrat in parc cu bugetul 406 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 406 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 406
+Vizitatorul 87 a intrat in parc cu bugetul 140 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 140 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 140
+Vizitatorul 88 a intrat in parc cu bugetul 213 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 213 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 213
+Vizitatorul 89 a intrat in parc cu bugetul 133 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 133 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 133
+Vizitatorul 90 a intrat in parc cu bugetul 361 si prefera atractia 'SkyHigh'
+Vizitatorul cu bugetul 361 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 361
+Vizitatorul 91 a intrat in parc cu bugetul 515 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 515 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 515
+Vizitatorul 92 a intrat in parc cu bugetul 586 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 586 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 586
+Vizitatorul 93 a intrat in parc cu bugetul 258 si prefera atractia 'ScaryHouse'
+Vizitatorul cu bugetul 258 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 258
+Vizitatorul 94 a intrat in parc cu bugetul 298 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 298 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 298
+Vizitatorul 95 a intrat in parc cu bugetul 236 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 236 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 236
+Vizitatorul 96 a intrat in parc cu bugetul 450 si prefera atractia 'Thunder'
+Vizitatorul cu bugetul 450 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 450
+Vizitatorul 97 a intrat in parc cu bugetul 194 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 194 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 194
+Vizitatorul 98 a intrat in parc cu bugetul 254 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 254 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 254
+Vizitatorul 99 a intrat in parc cu bugetul 395 si prefera atractia 'SplashWave'
+Vizitatorul cu bugetul 395 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 395
+Vizitatorul 100 a intrat in parc cu bugetul 586 si prefera atractia 'FantasyLand'
+Vizitatorul cu bugetul 586 a vizitat atractia 'Thunder' cu succes. Bugetul ramas: 586
+
+Venitul total generat: 1000
+Bugetul final al parcului: 101000
+Numarul total de vizitatori in parc: 100
+Numarul vizitatorilor care au vizitat cel putin o atractie: 100
+
+Atractia cea mai vizitata: Thunder (100 vizite)
+Atractia cea mai putin vizitata: FantasyLand (0 vizite)
+
+Detalii despre atracții:
+Tip: RollerCoaster
+Atractia: Thunder
+Status: Running
+Capacitate: 100
+Cost de constructie: 50000 lei
+Cost de intretinere: 2000 lei
+Venit per vizitator: 10 lei
+
+Numar de bucle: 5
+Tip: Carousel
+Atractia: FantasyLand
+Status: Closed
+Capacitate: 50
+Cost de constructie: 20000 lei
+Cost de intretinere: 1000 lei
+Venit per vizitator: 5 lei
+
+Numar de cai pe carusel: 20
+Tip: HauntedHouse
+Atractia: ScaryHouse
+Status: Running
+Capacitate: 30
+Cost de constructie: 30000 lei
+Cost de intretinere: 1500 lei
+Venit per vizitator: 8 lei
+
+Este infricosatoare: Da
+Tip: WaterSlide
+Atractia: SplashWave
+Status: Running
+Capacitate: 80
+Cost de constructie: 40000 lei
+Cost de intretinere: 1800 lei
+Venit per vizitator: 6 lei
+
+Tip: FerrisWheel
+Atractia: SkyHigh
+Status: Maintenance
+Capacitate: 120
+Cost de constructie: 70000 lei
+Cost de intretinere: 2500 lei
+Venit per vizitator: 12 lei
+
+
+Statistici dupa simulare:
+Statistici despre parc:
+Numar total de atractii: 5
+Tip: RollerCoaster
+Atractia: Thunder
+Status: Running
+Capacitate: 100
+Cost de constructie: 50000 lei
+Cost de intretinere: 2000 lei
+Venit per vizitator: 10 lei
+
+Numar de bucle: 5
+Tip: Carousel
+Atractia: FantasyLand
+Status: Closed
+Capacitate: 50
+Cost de constructie: 20000 lei
+Cost de intretinere: 1000 lei
+Venit per vizitator: 5 lei
+
+Numar de cai pe carusel: 20
+Tip: HauntedHouse
+Atractia: ScaryHouse
+Status: Running
+Capacitate: 30
+Cost de constructie: 30000 lei
+Cost de intretinere: 1500 lei
+Venit per vizitator: 8 lei
+
+Este infricosatoare: Da
+Tip: WaterSlide
+Atractia: SplashWave
+Status: Running
+Capacitate: 80
+Cost de constructie: 40000 lei
+Cost de intretinere: 1800 lei
+Venit per vizitator: 6 lei
+
+Tip: FerrisWheel
+Atractia: SkyHigh
+Status: Maintenance
+Capacitate: 120
+Cost de constructie: 70000 lei
+Cost de intretinere: 2500 lei
+Venit per vizitator: 12 lei
+
+Venit total generat: 4100 lei

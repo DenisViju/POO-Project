@@ -1,0 +1,10 @@
+RollerCoaster Cyclone 120 60000 3000 15 running
+Carousel MagicHorses 50 25000 1200 7 running
+HauntedHouse GhostlyManor 40 35000 1800 10 closed
+WaterSlide AquaBlast 90 45000 2000 8 running
+FerrisWheel SkyView 130 80000 2500 12 maintenance
+RollerCoaster LightningBolt 140 70000 3200 20 running
+Carousel FunWheel 60 20000 1000 5 running
+HauntedHouse SpookyCastle 35 40000 1900 12 closed
+WaterSlide SplashZone 100 48000 2100 10 running
+FerrisWheel StarGazer 150 90000 2800 14 running

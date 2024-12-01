@@ -1,0 +1,5 @@
+RollerCoaster Thunder 100 50000 2000 10 running
+Carousel FantasyLand 50 20000 1000 5 closed
+HauntedHouse ScaryHouse 30 30000 1500 8 running
+WaterSlide SplashWave 80 40000 1800 6 running
+FerrisWheel SkyHigh 120 70000 2500 12 maintenance
