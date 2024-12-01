@@ -2,30 +2,52 @@
 #define ATTRACTION_H
 
 #include <string>
+#include <fstream>
+
+// Enumerarea pentru tipurile de atracții
+enum class AttractionType {
+    RollerCoaster,
+    Carousel,
+    HauntedHouse,
+    WaterSlide,
+    FerrisWheel
+};
+
+// Enumerarea pentru stările atracțiilor
+enum class Status {
+    Running,
+    Closed,
+    Maintenance
+};
+
+std::string attractionTypeToString(AttractionType type);
 
 class Attraction {
 protected:
-  std::string name;
-  int capacity;
-  double constructionCost;
-  double maintenanceCost;
-  double incomePerVisitor;
-  //status = "running" / "maintenance" / "closed"
-  std::string status; 
-  
+    std::string name;                // Numele atracției
+    Status status;                   // Starea atracției (Running, Closed, Maintenance)
+    int capacity;                    // Capacitatea atracției (de ex. nr. vizitatori pe oră)
+    double constructionCost;         // Costul de construcție al atracției
+    double maintenanceCost;          // Costul de întreținere
+    double incomePerVisitor;         // Venitul per vizitator
+
 public:
-  Attraction(std::string name, int capacity, double constructionCost, double maintenanceCost, double incomePerVisitor);
-  virtual ~Attraction() = default;
-  virtual void displayInfo() const;
-  virtual double calculateIncome(int visitors) const;
-  
-  
-  std::string getName() const;
-  std::status getStatus() const;
-  void setStatus(const std::string& newStatus);
-  
+    // Constructor
+    Attraction(std::string name, Status status, int capacity, double constructionCost, double maintenanceCost, double incomePerVisitor);
+
+    // Virtual methods
+    virtual double calculateIncome(int visitors) const = 0;  // Metodă virtuală pură pentru calcularea venitului
+    virtual void displayInfo(std::ostream& os) const;        // Afișează informațiile atracției
+    virtual AttractionType getType() const = 0;               // Metodă virtuală pură pentru a obține tipul atracției
+
+    // Getter și setter pentru status
+    Status getStatus() const;
+    void setStatus(Status newStatus);
+
+    // Getter pentru nume
+    std::string getName() const;
+    
+    friend class Park;
 };
 
-#endif
-
-
+#endif // ATTRACTION_H
