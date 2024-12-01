@@ -36,22 +36,40 @@ void Park::simulateVisitors(int numberOfVisitors, std::ostream& os) {
            << " si prefera atractia '" << preferredAttraction << "'\n";
 
         bool visited = false;
+
+        // Verificăm mai întâi dacă vizitatorul poate vizita atracția preferată
         for (size_t j = 0; j < attractions.size(); ++j) {
             auto& attraction = attractions[j];
-            if (attraction->getStatus() == Status::Running && visitor.visitAttraction(attraction->incomePerVisitor)) {
+            if (attraction->getStatus() == Status::Running &&
+                attraction->getName() == visitor.getPreferredAttraction() &&  // Preferința este respectată
+                visitor.visitAttraction(attraction->incomePerVisitor)) {
                 visited = true;
                 successfulVisitors++;
-                attractionVisitCount[j]++;  // Incrementăm numărul de vizite pentru atracția respectivă
+                attractionVisitCount[j]++;
                 os << "Vizitatorul cu bugetul " << visitorBudget << " a vizitat atractia '"
-                   << attraction->getName() << "' cu succes. Bugetul ramas: " << visitorBudget << "\n";
+                    << attraction->getName() << "' cu succes. Bugetul ramas: " << visitorBudget << "\n";
                 totalIncome += attraction->incomePerVisitor;
                 break;
             }
         }
 
+        // Dacă nu a reușit să viziteze atracția preferată, încearcă alte atracții disponibile
         if (!visited) {
-            os << "Vizitatorul nu a reusit sa viziteze nici o atractie.\n";
+            for (size_t j = 0; j < attractions.size(); ++j) {
+                auto& attraction = attractions[j];
+                if (attraction->getStatus() == Status::Running &&
+                    visitor.visitAttraction(attraction->incomePerVisitor)) {
+                    visited = true;
+                    successfulVisitors++;
+                    attractionVisitCount[j]++;
+                    os << "Vizitatorul cu bugetul " << visitorBudget << " a vizitat atractia '"
+                        << attraction->getName() << "' cu succes. Bugetul ramas: " << visitorBudget << "\n";
+                    totalIncome += attraction->incomePerVisitor;
+                    break;
+                }
+            }
         }
+
     }
 
     budget += totalIncome;
