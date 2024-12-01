@@ -1,17 +1,38 @@
 #include "Attraction.h"
-#include <iostream>
 
-Attraction::Attraction(std::string name, int capacity, double constructionCost, double maintenanceCost, double incomePerVisitor)
-    : name(name), capacity(capacity), constructionCost(constructionCost), maintenanceCost(maintenanceCost), incomePerVisitor(incomePerVisitor), status("closed") {}
+// Constructor pentru Attraction
+Attraction::Attraction(std::string name, Status status, int capacity, double constructionCost, double maintenanceCost, double incomePerVisitor)
+    : name(std::move(name)), status(status), capacity(capacity), constructionCost(constructionCost), maintenanceCost(maintenanceCost), incomePerVisitor(incomePerVisitor) {}
 
-void Attraction::displayInfo() const {
-    std::cout << "Attraction: " << name << "\nCapacity: " << capacity << "\nStatus: " << status << "\n";
+// Metoda de afișare a informațiilor atracției
+void Attraction::displayInfo(std::ostream& os) const {
+    os << "Atractia: " << name << "\n"
+        << "Status: " << (status == Status::Running ? "Running" : status == Status::Closed ? "Closed" : "Maintenance") << "\n"
+        << "Capacitate: " << capacity << "\n"
+        << "Cost de constructie: " << constructionCost << " lei\n"
+        << "Cost de intretinere: " << maintenanceCost << " lei\n"
+        << "Venit per vizitator: " << incomePerVisitor << " lei\n\n";
 }
 
-double Attraction::calculateIncome(int visitors) const {
-    return visitors * incomePerVisitor;
+std::string attractionTypeToString(AttractionType type) {
+    switch (type) {
+    case AttractionType::RollerCoaster: return "RollerCoaster";
+    case AttractionType::Carousel: return "Carousel";
+    case AttractionType::HauntedHouse: return "HauntedHouse";
+    case AttractionType::WaterSlide: return "WaterSlide";
+    case AttractionType::FerrisWheel: return "FerrisWheel";
+    default: return "Unknown";
+    }
 }
 
-std::string Attraction::getName() const { return name; }
-void Attraction::setStatus(const std::string& newStatus) { status = newStatus; }
-std::string Attraction::getStatus() const { return status; }
+std::string Attraction::getName() const {
+    return name;
+}
+
+void Attraction::setStatus(Status newStatus) {
+    status = newStatus;
+}
+
+Status Attraction::getStatus() const {
+    return status;
+}
