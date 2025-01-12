@@ -46,6 +46,8 @@ public:
 
     // Getter pentru nume
     std::string getName() const;
+
+    double getConstructionCost() const;
     
     friend class Park;
 };
