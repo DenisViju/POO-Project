@@ -73,19 +73,34 @@ void Park::simulateVisitors(int numberOfVisitors, std::ostream& os) {
     }
 
     budget += totalIncome;
-    os << "\nVenitul total generat: " << totalIncome << "\n";
     os << "Bugetul final al parcului: " << budget << "\n";
     os << "Numarul total de vizitatori in parc: " << numberOfVisitors << "\n";
     os << "Numarul vizitatorilor care au vizitat cel putin o atractie: " << successfulVisitors << "\n\n";
 
     // Determinarea celei mai vizitate și celei mai puțin vizitate atracții
     int mostVisitedIndex = std::distance(attractionVisitCount.begin(), std::max_element(attractionVisitCount.begin(), attractionVisitCount.end()));
-    int leastVisitedIndex = std::distance(attractionVisitCount.begin(), std::min_element(attractionVisitCount.begin(), attractionVisitCount.end()));
+    os << "Atractia cea mai vizitata: " << attractions[mostVisitedIndex]->getName() << " (" << attractionVisitCount[mostVisitedIndex] << " vizite)\n";
+    // Determinarea celei mai puțin vizitate atracții care este în statusul "Running"
+    int leastVisitedIndex = -1;
+    int minVisits = INT_MAX;
 
-    os << "Atractia cea mai vizitata: " << attractions[mostVisitedIndex]->getName() << " ("
-       << attractionVisitCount[mostVisitedIndex] << " vizite)\n";
-    os << "Atractia cea mai putin vizitata: " << attractions[leastVisitedIndex]->getName() << " ("
-       << attractionVisitCount[leastVisitedIndex] << " vizite)\n";
+    for (size_t i = 0; i < attractions.size(); ++i) {
+        if (attractions[i]->getStatus() == Status::Running && attractionVisitCount[i] < minVisits) {
+            minVisits = attractionVisitCount[i];
+            leastVisitedIndex = i;
+        }
+    }
+
+    // Verificăm dacă s-a găsit o atracție validă
+    if (leastVisitedIndex != -1) {
+        os << "Atractia cea mai putin vizitata care este in statusul 'Running': "
+            << attractions[leastVisitedIndex]->getName() << " ("
+            << attractionVisitCount[leastVisitedIndex] << " vizite)\n";
+    }
+    else {
+        os << "Nu există nicio atracție în statusul 'Running'.\n";
+    }
+    
 
     // Detalii despre atracții
     os << "\nDetalii despre atracții:\n";
@@ -97,7 +112,6 @@ void Park::simulateVisitors(int numberOfVisitors, std::ostream& os) {
 
 
 void Park::displayStatistics(std::ofstream& os) {
-    os << "Statistici despre parc:\n";
 
     // Afiseaza numarul total de atractii
     os << "Numar total de atractii: " << attractions.size() << "\n";
@@ -112,8 +126,7 @@ void Park::displayStatistics(std::ofstream& os) {
         totalIncome += attraction->calculateIncome(100);  // Presupunem 100 de vizitatori
     }
 
-    // Afișează venitul total generat
-    os << "Venit total generat: " << totalIncome << " lei\n";
+    
 }
 
 void Park::loadFromFile(const std::string& filename) {
@@ -163,3 +176,18 @@ void Park::saveToFile(const std::string& filename) {
              << (attraction->getStatus() == Status::Running ? "running" : "closed") << "\n";
     }
 }
+
+void Park::constructAttractions() {
+    for (size_t i = 0; i < attractions.size(); i++) {
+        if (budget >= attractions[i]->getConstructionCost()) {
+            budget -= attractions[i]->getConstructionCost();
+        } 
+        else {
+            attractions.erase(attractions.begin() + i, attractions.end());
+            break;
+        }
+        
+    }
+}
+
+double Park::getBudget() const { return budget; }
