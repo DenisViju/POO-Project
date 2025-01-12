@@ -36,3 +36,5 @@ void Attraction::setStatus(Status newStatus) {
 Status Attraction::getStatus() const {
     return status;
 }
+
+double Attraction::getConstructionCost() const { return constructionCost; }
