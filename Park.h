@@ -42,6 +42,9 @@ public:
     // Modifică statusul unei atracții
     void updateAttractionStatus(const std::string& attractionName, Status status);
 
+    void constructAttractions();
+
+    double getBudget() const;
     // Șterge o atracție din parc
     void removeAttraction(const std::string& attractionName);
 };
