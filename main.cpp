@@ -14,6 +14,7 @@ int main() {
 
     // Crează un parc cu un buget inițial
     Park park(100000); // Buget inițial pentru parc
+    outputFile << "Bugetul initial al parcului: " << park.getBudget() << "\n\n";
 
     // Încarcă atracțiile din fișierul input.txt
     try {
@@ -23,13 +24,20 @@ int main() {
         return 1;
     }
 
-    // Afișează statistici inițiale în fișier
-    outputFile << "Statistici initiale ale parcului:\n";
+
+    //Afiseaza atractiile din planul de constructie
+    outputFile << "ATRACTIILE DIN PLANUL DE CONSTRUCTIE:\n\n";
     park.displayStatistics(outputFile);  // Scrie informațiile despre parc în fișier
+    park.constructAttractions();
+
+    outputFile << "Bugetul parcului dupa construirea atractiilor: " << park.getBudget() << "\n\n";
+
+    //afiseaza atractiile care au putut fi construite in functie de bugetul parcului
+    outputFile << "ATRACTIILE CARE AU PUTUT FI CONSTRUITE IN FUNCTIE DE BUGETUL INITIAL:\n\n";
+    park.displayStatistics(outputFile);
 
     // Simulează vizitele vizitatorilor
     int numberOfVisitors = 100;  // Număr de vizitatori pentru simulare
-    outputFile << "\nSimulare vizitatori:\n";
     park.simulateVisitors(numberOfVisitors, outputFile);
 
     // Afișează statistici după simulare în fișier
